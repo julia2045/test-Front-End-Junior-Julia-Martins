@@ -1,0 +1,6 @@
+.students select{
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 1px solid #4D44B5;
+    color: #4D44B5;
+}
