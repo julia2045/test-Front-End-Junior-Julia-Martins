@@ -7,7 +7,7 @@ O objetivo do projeto é demonstrar habilidades em:
 - Desenvolvimento front-end com React
 - Criação de componentes reutilizáveis
 - Implementação de lógica dinâmica através de props e estados
-- Design responsivo com CSS moderno (flexbox e grid)
+- Design responsivo com CSS moderno (flexbox)
 - Estrutura de navegação organizada com React Router
 
 ---
@@ -27,7 +27,7 @@ O objetivo do projeto é demonstrar habilidades em:
 - React
 - React Router DOM
 - CSS Modules
-- Flexbox e Grid para layout responsivo
+- Flexbox para layout responsivo
 
 ---
 
