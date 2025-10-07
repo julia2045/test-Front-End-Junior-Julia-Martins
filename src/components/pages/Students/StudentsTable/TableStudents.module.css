@@ -1,0 +1,261 @@
+.students {
+  padding: 30px 50px;
+}
+
+.students h1{
+  color: #303972;
+  font-weight: 700;
+}
+
+.studentImg{
+  height: 40px;
+
+}
+namePosition
+.button {
+  border: none;
+  background-color: #4d44b5;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+
+a {
+  color: #fff;
+}
+
+.students select {
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: 1px solid #4d44b5;
+  color: #4d44b5;
+}
+
+.table {
+  background-color: #fff;
+  margin-top: 60px;
+  border-radius: 20px;
+  border-collapse: collapse;
+  min-width: 100%;
+  color: #303972;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.table th,
+.table td {
+  padding: 20px 20px;
+  border-bottom: 1px solid #a098ae7b;
+  text-align: left;
+  white-space: nowrap;
+}
+
+.table tr {
+  font-size: 14px;
+}
+
+table tr:last-of-type td {
+  border: none;
+}
+
+.namePosition{
+  display: flex;
+  gap: 5px;
+  align-Items: center ;
+}
+.name {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.id{
+  color:#4D44B5 ;
+  font-size: 18px;
+  font-weight: 600;
+}
+.colorDate{
+ color: #A098AE;
+}
+.contact {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.grade {
+  display: block;
+  background-color: #fb7d5b;
+  max-width: 80%;
+  padding: 10px;
+  border-radius: 40px;
+  color: #fff;
+}
+
+.pagination {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  justify-content: end;
+  padding: 20px;
+}
+
+.page {
+  border: 1px solid #4d44b5;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  padding: 5px;
+  border-radius: 100%;
+  color: #fff;
+  background-color: #4d44b5;
+}
+
+.pagination button {
+  border: none;
+  background: transparent;
+}
+
+.activePage {
+  background-color: #fff;
+  color: #4d44b5;
+  font-weight: bold;
+}
+
+@media (max-width: 1400px) {
+  .table th,
+  .table td {
+    padding: 15px 15px 15px 30px;
+  }
+
+  .studentImg {
+    height: 25px;
+  }
+  
+  .namePosition{
+    gap: 0px;
+  }
+  .table td {
+    font-size: 14px;
+  }
+
+  .contactSvg{
+    height: 30px;
+
+  }
+  .grade {
+    display: block;
+    background-color: #fb7d5b;
+    padding: 10px 10px 10px 20px;
+    border-radius: 40px;
+    color: #fff;
+  }
+}
+
+@media (max-width: 1200px) {
+  .students{
+    padding: 20px 30px ;
+  }
+
+  .students h1{
+    font-size: 25px;
+  }
+  .table tr{
+    font-size: 11px;
+  }
+ 
+  .table th,
+  .table td {
+    padding: 20px 10px;
+    border-bottom: 1px solid #4d44b5;
+    text-align: left;
+    white-space: nowrap;
+  }
+
+  .pagination {
+  padding: 10px;
+}
+
+.page {
+  width: 20px;
+  height: 20px;
+  font-size: 10px;
+  padding: 2px;
+}
+.arrow{
+  height: 18px;
+}
+
+
+
+}
+
+@media (max-width: 950px) {
+  .students{
+    padding: 10px 20px ;
+  }
+  .table th,
+  .table td {
+    padding: 15px 5px;
+  }
+
+  .studentImg {
+    height: 15px;
+  }
+
+  .name {
+    padding: 5px;
+  }
+
+  .table td {
+    font-size: 10px;
+  }
+  .contact{
+    gap: 0px;
+  }
+  .contactSvg {
+    height: 15px;
+  }
+
+  .grade {
+    padding: 5px 5px 5px 15px;
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 800px){
+  .students{
+    padding: 50px 20px ;
+  }
+  
+  .mobileStudents {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; 
+    padding: 10px;
+  }
+
+  .studentCard {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+
+  .namePosition{
+    align-items: center;
+    
+  }
+
+  .contactSvg {
+    height: 30px;
+  }
+
+  .grade {
+    padding: 5px 5px 5px 15px;
+    max-width: 15%;
+    font-size: 10px;
+  }
+
+}

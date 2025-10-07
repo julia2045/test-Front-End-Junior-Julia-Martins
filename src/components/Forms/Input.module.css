@@ -1,0 +1,22 @@
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    color: #303972;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.wrapper input{
+    border: solid 1px #C1BBEB;
+    border-radius: 5px;
+    min-width: 100%;
+    height: 48px;
+    padding-left: 10px;
+}
+
+@media (max-width: 1200px){
+    .wrapper input{
+        height: 35px;
+    }
+}

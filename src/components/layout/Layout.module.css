@@ -1,0 +1,21 @@
+.layout{
+    margin-Left: 345px ; 
+    padding: 40px ;           
+    min-height: 100vh;          
+    background: #F3F4FF;        
+}
+
+@media (max-width: 1400px){
+    .layout{
+        margin-Left: 200px ;  
+        padding: 10px ;
+    }
+    
+}
+
+@media (max-width: 500px){
+    .layout{
+        margin-left: 0px;
+    }
+}
+
